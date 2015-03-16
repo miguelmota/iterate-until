@@ -25,9 +25,11 @@ function isLessThanEight(n) {
   return n < 8;
 }
 
-var result = iterateUntil(isLessThanEight, addTwo, 0);
+var initial = 0;
 
-t.deepEqual(result, [2,4,6]);
+var result = iterateUntil(isLessThanEight, addTwo, initial);
+
+console.log(result); // [2,4,6]
 ```
 
 # License

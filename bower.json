@@ -1,0 +1,22 @@
+{
+  "name": "iterate-until",
+  "main": "iterate-until.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/miguelmota/iterate-until",
+  "authors": [
+    "Miguel Mota <miguelmota2@gmail.com>"
+  ],
+  "description": "Iteratively invokes a function until condition is met.",
+  "keywords": [
+    "iterate",
+    "loop"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "license": "MIT"
+}

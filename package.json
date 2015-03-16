@@ -1,0 +1,29 @@
+{
+  "name": "iterate-until",
+  "version": "0.0.1",
+  "description": "Iteratively invokes a function until condition is met.",
+  "main": "iterate-until.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/iterate-until"
+  },
+  "keywords": [
+    "iterate",
+    "loop"
+  ],
+  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelmota/iterate-until/issues"
+  },
+  "homepage": "https://github.com/miguelmota/iterate-until",
+  "dependencies": {
+    "tape": "^3.0.3"
+  }
+}
